@@ -4,7 +4,7 @@
   padding:0;
 }
 body{
-  font-family: Arial, Oswald, Rubik, sans-serif;
+  font-family: Arial,sans-serif;
 }
 
 
@@ -80,7 +80,7 @@ main{
 }
 
 .intro-first{
-  max-height:auto;;
+  max-height:auto;
   width:90%;
   display: flex;
   justify-content: space-between;
@@ -91,7 +91,6 @@ main{
 h1{
   color:#6d0083;
   font-size:49px;
-  font-family:Roboto, Arial;
   font-weight:700;
   margin:30px 0 0 0;
 }
@@ -225,6 +224,21 @@ hr{
   object-fit: cover;
   border-radius:15px;
   
+}
+
+.pricing div a{
+  color:#6d0083;
+  text-decoration:none;
+ 
+}
+
+.pricing div h3{
+  color:#6d0083;
+  font-size:20px;
+  background:#fceaff;
+  border-radius:20px;
+  padding: 5px 10px;
+  text-align: left;
 }
 
 .shop-now-container {
@@ -397,7 +411,7 @@ h2{
 
 h3{
   font-size:19px;
-  text-decoration: underline #6d0083;
+  
 }
 
 p{
@@ -524,6 +538,16 @@ hr{
   height:200px;
   object-fit: cover;
   border-radius:15px;
+}
+
+.pricing div h3{
+  color:#6d0083;
+  font-size:20px;
+  background:#fceaff;
+  border-radius:20px;
+  padding: 5px 10px;
+  text-align: center;
+  display:inline-block;
 }
 
 footer{
